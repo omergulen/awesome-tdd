@@ -81,7 +81,7 @@ A curated list of courses, tutorials, libraries, tips and tricks, books, videos 
 ## Javascript
 
 ### Books Javascript
-- [Test Driven Javascript Development](https://www.packtpub.com/web-development/test-driven-javascript-development) - by Ravi Kumar Gupta ,Hetal Prajapati ,Harmeet Singh.
+- [Test Driven Javascript Development](https://www.packtpub.com/web-development/test-driven-javascript-development) - by Ravi Kumar Gupta, Hetal Prajapati, Harmeet Singh.
 - [Testing JavaScript Applications](https://www.manning.com/books/testing-javascript-applications) - A book about JavaScript testing tools and techniques which includes an entire chapter dedicated to TDD by Lucas da Costa.
 
 ### Guides Javascript
