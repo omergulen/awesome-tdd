@@ -78,7 +78,7 @@ const Index = ({
         <meta name="description" content={siteDescription} />
         <meta name="image" content={`${siteUrl}/social.png`} />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content="bdd.tools" />
+        <meta property="og:site_name" content="tdd.tools" />
         <meta property="og:url" content={siteUrl} />
         <meta property="og:title" content={siteName} />
         <meta property="og:description" content={siteDescription} />
@@ -90,14 +90,14 @@ const Index = ({
       </Helmet>
       <div css={css({ marginTop: `1rem` })} />
       <GitHubButton
-        href="https://github.com/omergulen/awesome-bdd"
+        href="https://github.com/omergulen/awesome-tdd"
         data-color-scheme="no-preference: dark; light: light; dark: dark;"
         data-icon="octicon-star"
         data-size="large"
         data-show-count="true"
-        aria-label="Star omergulen/awesome-bdd on GitHub"
+        aria-label="Star omergulen/awesome-tdd on GitHub"
       >
-        omergulen/awesome-bdd
+        omergulen/awesome-tdd
       </GitHubButton>
       {renderAst(htmlAst)}
       <footer

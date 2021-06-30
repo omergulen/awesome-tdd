@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/omergulen/awesome-bdd/"
+    "url": "https://github.com/omergulen/awesome-tdd/"
   },
   "bugs": {
-    "url": "https://github.com/omergulen/awesome-bdd/issues"
+    "url": "https://github.com/omergulen/awesome-tdd/issues"
   }
 }

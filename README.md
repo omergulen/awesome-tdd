@@ -1,130 +1,173 @@
-# **Awesome BDD** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# **Awesome TDD** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A collection of awesome things regarding the behavior driven development ecosystem.
+A collection of awesome things regarding the test driven development ecosystem.
+A curated list of courses, tutorials, libraries, tips and tricks, books, videos and awesome resources about TDD.
+
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. You might also like [awesome-bdd](https://github.com/omergulen/awesome-bdd).*
+
+*Please read the [contribution guidelines](#guidelines) before contributing.*
+
+**Say *hi* on [Twitter](https://twitter.com/omergulenn).**
 
 ## Table of Contents
-- [Resources](#resources)
-  - [Articles](#articles)
-  - [Books](#books)
-  - [Case Studies](#case-studies)
-  - [Guides](#guides)
-  - [Related Awesome Lists](#related-awesome-lists)
-  - [Videos](#videos)
-- [Tools](#tools)
-  - [.NET](#net)
-  - [C#](#c-sharp)
-  - [Go](#go)
-  - [Java](#java)
-  - [JavaScript](#javascript)
-  - [Objective-C](#objective-c)
-  - [Perl](#perl)
-  - [PHP](#php)
-  - [Python](#python)
-  - [Ruby](#Ruby)
-- [Contribution](#contribution)
+- [Angular.js](#angular-js)
+  - [Books](#books-angular-js)
+  - [Guides](#guides-angular-js)
+  - [Videos](#videos-angular-js)
+- [C Sharp](#c-sharp)
+  - [Guides](#guides-c-sharp)
+  - [Videos](#videos-c-sharp)
+- [Java](#java)
+  - [Books](#books-java)
+- [JavaScript](#javascript)
+  - [Books](#books-javascript)
+  - [Guides](#guides-javascript)
+  - [Tools](#tools-javascript)
+- [Node.js](#node-js)
+  - [Guides](#guides-node-js)
+- [PHP](#php)
+  - [Guides](#guides-php)
+- [Python](#python)
+  - [Books](#books-python)
+  - [Guides](#guides-python)
+  - [Videos](#videos-python)
+- [React.js](#react-js)
+  - [Guides](#guides-react-js)
+- [Ruby](#Ruby)
+  - [Books](#books-ruby)
+  - [Guides](#guides-ruby)
+  - [Videos](#videos-ruby)
+- [Related Awesome Lists](#related-awesome-lists)
 
 ---
 
-## Resources
+## Angular.js
 
-### Articles
-- [What is BDD?](https://cucumber.io/docs/bdd/) - by Cucumber.
-- [Introducing BDD](https://dannorth.net/introducing-bdd/) - by Dan North.
-- [Making the shift to behavior driven development](https://www.atlassian.com/blog/software-teams/making-the-shift-to-behavior-driven-development) - by Heather Krebsbach (Atlassian).
-- [Where should you use Behaviour-Driven Development?](https://cucumber.io/blog/bdd/where_should_you_use_bdd/) - by Thomas Sundberg.
-- [BDD in DevOps: An Example of BDD in Continuous Integration | Whiteboard Friday](https://www.qasymphony.com/blog/bdd-devops-example-bdd-continuous-integration/) - by Tricentis Team.
-- [Be Da Developer, Cucumber on Android](https://proandroiddev.com/be-da-developer-cucumber-on-android-cfd07773e59d) - by Emma Suzuki.
-- [Cucumber.io - Official Documentation for Cucumber](https://cucumber.io/docs) - by Cucumber.
-- [Cucumber BDD (Part 1): Starting with Feature Mapping](https://medium.com/agile-vision/starting-with-bdd-for-collaborative-development-in-agile-environments-5fb034078b3c) - by Thilina Ashen Gamage.
-- [E2E Testing with Protractor , Cucumber using TypeScript!](https://medium.com/@igniteram/e2e-testing-with-protractor-cucumber-using-typescript-564575814e4a) - by Ram Pasala.
-- [End-to-end testing Single Page Apps and Node.js APIs with Cucumber.js and Puppeteer](https://medium.com/@anephenix/end-to-end-testing-single-page-apps-and-node-js-apis-with-cucumber-js-and-puppeteer-ad5a519ace0) - by Anephenix.
-- [Shift Left with Behavior Driven Development](https://smartbear.com/product/testleft/features/behavior-driven-development/) - by Smartbear.
+### Books Angular.js
+- [AngularJS Test Driven Development](http://www.amazon.com/AngularJS-Test-driven-Development-Tim-Chaplin/dp/1784398837) - by Tim Chaplin.
+### Guides Angular.js
+- [AngularJS for TDD](http://code.tutsplus.com/articles/new-course-angularjs-for-test-driven-development--cms-24345) - This course will familiarize you with all the testing frameworks you'll need: Mocha, Chai, Protractor, Karma and more by Andrew Blackman.
+- [TDD Basics with AngularJS and Jasmine](http://www.slideshare.net/iquark/tdd-basics-with-angular-and-jasmine) - Basics of TDD with a small example using Angular.js and Jasmine by Luis Sánchez Castellanos.
+- [TDD with AngularJS](http://ckknight.github.io/angularjs-tdd-presentation/#/) - by ckknight.
+- [Obey the Testing Goat](http://davidsouther.com/tdd-angular/) - This is a todo app! There are many like it, but this one was written from nothing following as best I was able TDD design processes. Built entirely using Javascript technologies, it also provides a great practical example of how a variety of modern NodeJS tools work together to build a modern app by David Souther.
+- [AngularJS TDD by Example](http://angularjs-tdd.tumblr.com/) - by michaeljcalkins.
+- [Testing AngularJS from Scratch](https://www.pluralsight.com/courses/testing-angularjs-from-scratch) - In this course, you will learn how to create software using Behavior Driven Development, a test-first, agile approach to creating Angular programs using Jasmine by Jesse Liber.
+- [Unit Testing in AngularJS: Services, Controllers & Providers](http://www.sitepoint.com/unit-testing-angularjs-services-controllers-providers/) - by Rabi Kiran.
+- [Testing Angular with Karma](https://www.airpair.com/angularjs/posts/testing-angular-with-karma) - by Ben Drucker.
+- [An Introduction To Unit Testing In AngularJS Applications](http://www.smashingmagazine.com/2014/10/07/introduction-to-unit-testing-in-angularjs/) - AngularJS has grown to become one of the most popular single-page application frameworks. Developed by a dedicated team at Google, the outcome is substantial and widely used in both community and industry projects. One of the reasons for AngularJS’ success is its outstanding ability to be tested. It’s strongly supported by Karma (the spectacular test runner written by Vojta Jína) and its multiple plugins. Karma, combined with its fellows Mocha, Chai and Sinon, offers a complete toolset to produce quality code that is easy to maintain, bug-free and well documented by Sébastien Fragnaud.
+- [How To Unit Test An Angular App](http://www.alexrothenberg.com/2013/08/06/how-to-unit-test-an-angular-app.html) - Today we’re going to build a simple Tic-Tac-Toe game writing unit tests along the way by Alex Rothenberg.
+- [Testing AngularJS directive templates with Jasmine and Karma](http://daginge.com/technology/2013/12/14/testing-angular-templates-with-jasmine-and-karma/) - by Dag-Inge.
 
-### Books
-- [BDD in Action: Behavior-driven development for the whole software lifecycle](https://www.amazon.com/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/httpwwwtuto0a-20) - by  John Ferguson Smart.
-- [The Cucumber Book: Behaviour-Driven Development for Testers and Developers (Pragmatic Programmers)](https://www.amazon.com/Cucumber-Book-Behaviour-Driven-Development-Programmers/dp/1934356808/httpwwwtuto0a-20) - by Matt Wynne, Aslak Hellesoy.
-- [Learning Behavior-driven Development with JavaScript](https://www.amazon.com/Learning-Behavior-driven-Development-JavaScript-Enrique/dp/1784392642/httpwwwtuto0a-20) - by Enrique Amodeo.
-- [Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530/httpwwwtuto0a-20) - by Kent Beck.
-- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/httpwwwtuto0a-20) - by Robert C. Martin.
-- [The Cucumber for Java Book: Behaviour-Driven Development for Testers and Developers](https://www.amazon.com/Cucumber-Java-Book-Behaviour-Driven-Development/dp/1941222293/httpwwwtuto0a-20) - by Seb Rose, Matt Wynne, Aslak Hellesoy.
+### Videos Angular.js
+- [AngularJS Testing Overview](https://egghead.io/lessons/angularjs-testing-overview) - Testing is a first class citizen in AngularJS. It is at its heart and soul. This lesson demonstrates using Karma to write a simple unit test for a Filter by John Lindquist.
 
-### Case Studies
-- [Behaviour Driven Development - Case study in Nordea](https://prezi.com/ke8eiqlb_1x9/behaviour-driven-development-case-study-in-nordea/) - by Sami Luoma.
 
-### Guides
-- [The beginner's guide to BDD](https://inviqa.com/blog/bdd-guide) - by Konstantin Kudryashov, Alistair Stead, Dan North.
-- [Protractor-Cucumber-TypeScript Setup Guide](https://github.com/igniteram/protractor-cucumber-typescript) - by Ram Pasala.
+## C Sharp
+
+### Guides C Sharp
+- [Get some hands-on practice with test-driven development in C#](https://www.freecodecamp.org/news/tdd-explanation-hands-on-practice-with-c-a0124338be44/) - by Moshe Binieli.
+- [Walkthrough: Test-driven development using Test Explorer](https://docs.microsoft.com/en-us/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2019) - by Microsoft contributors.
+- [Walkthrough: Create and run unit tests for managed code](https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2019) - by Microsoft contributors.
+
+### Videos C Sharp
+- [TDD in C# From A to Z](https://www.udemy.com/course/tdd-csharp/) - by Engineer Spock.
+
+
+## Java
+
+### Books Java
+- [JUnit in Action, Third Edition](https://www.manning.com/books/junit-in-action-third-edition) - by Cătălin Tudose.
+
+## Javascript
+
+### Books Javascript
+- [Test Driven Javascript Development](https://www.packtpub.com/web-development/test-driven-javascript-development) - by Ravi Kumar Gupta ,Hetal Prajapati ,Harmeet Singh.
+- [Testing JavaScript Applications](https://www.manning.com/books/testing-javascript-applications) - A book about JavaScript testing tools and techniques which includes an entire chapter dedicated to TDD by Lucas da Costa.
+
+### Guides Javascript
+- [Let's Code: Test Driven Javascript](http://www.letscodejavascript.com/) - James Shore presents a fascinating screencast on rigorous, professional JavaScript development.
+- [Test Driven Javascript Development in Practice](http://code.tutsplus.com/tutorials/test-driven-javascript-development-in-practice--net-16246) - by Christian Johansen.
+- [Learn TDD in Javascript](https://github.com/dwyl/learn-tdd) -  ✅ A brief introduction to Test Driven Development (TDD) in JavaScript (Complete Beginner's Step-by-Step Tutorial) by dwyl.
+- [TDD the RITE Way](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3) - by Eric Elliott.
+
+### Tools Javascript
+- [Mutation testing in JavaScript](https://github.com/stryker-mutator/stryker) - Mutation testing for JavaScript and friends.
+
+
+## Node.js
+
+### Guides Node.js
+- [Unit testing and TDD in Nodejs - Part 1](https://www.codementor.io/nodejs/tutorial/unit-testing-nodejs-tdd-mocha-sinon) - by David Tang.
+- [Unit Testing and TDD in Nodejs - Part 2](https://www.codementor.io/nodejs/tutorial/unit-testing-tdd-node-js-nockjs-part-2) - by David Tang.
+
+## PHP
+
+### Guides PHP
+- [Test Driven Development Example by Daylerees](https://github.com/daylerees/test-driven-development-example) - An introduction to Test-Driven Development (TDD) by Dayle Rees.
+- [The newbies guide to TDD](http://code.tutsplus.com/tutorials/the-newbies-guide-to-test-driven-development--net-13835) - Testing your code is annoying, but the impact of not doing so can be orders of magnitude more annoying! In this article, we'll use test-driven development to write and test our code more effectively by Nikko Bautista.
+- [TDD in PHP: First Steps](http://code.tutsplus.com/tutorials/test-driven-development-in-php-first-steps--net-25796) - Trust me: it's not as tough as you think by Jeffrey Way.
+- [Automatic Testing for TDD with PHP](http://code.tutsplus.com/tutorials/automatic-testing-for-tdd-with-php--net-26395) - Any tool that helps you obtain quicker feedback is a valuable asset by Patkos Csaba.
+- [Lets TDD a simple app in PHP](http://code.tutsplus.com/tutorials/lets-tdd-a-simple-app-in-php--net-26186) - In this tutorial, I will present an end-to-end example of a simple application - made strictly with TDD in PHP. I will walk you through each step, one at a time, while explaining the decisions I made in order to get the task done. The example closely follows the rules of TDD: write tests, write code, refactor by Patkos Csaba.
+- [Deciphering testing Jargon](http://code.tutsplus.com/tutorials/deciphering-testing-jargon--net-27513) - Lately, we've been hearing and reading more and more about test-driven development. This domain, however, comes with a series of expressions and specific jargon that can be confusing to newcomers. This article will walk you through the most common definitions, test types and test parts. Use cases will be provided, and, where possible, some code in PHP will also be presented by Patkos Csaba.
+- [Basic TDD in your new PHP Package](http://www.sitepoint.com/basic-tdd-new-php-package/) - by Bruno Skvorc.
+- [Test Driven Development with PHP](http://www.paulund.co.uk/test-driven-development-with-php) - by Paulund.
+- [PHP Test-Driven Development Automated Tools to Improve Your PHP Code Quality](https://dzone.com/refcardz/phpunit-php-test-driven) - Shows you how to set up and automate your testing with ease and help you improve code quality by DZone.
+- [TDD with Laravel and Doctrine](http://code.tutsplus.com/tutorials/test-driven-development-with-laravel-doctrine--cms-25563) - As a PHP developer, you may use the Test-Driven Development (TDD) technique to develop your software by writing tests. Typically, TDD will divide each task of the development into individual units. A test is then written to ensure that the unit behaves as expected by Alireza Rahmani Khalili.
+- [Getting Started with BDD in Laravel ](https://semaphoreci.com/community/tutorials/getting-started-with-bdd-in-laravel) - by Bruno Skvorc.
+- [Laravel, BDD and You, Let's get Started](http://code.tutsplus.com/tutorials/laravel-bdd-and-you-lets-get-started--cms-22155) - by Peter Suhm.
+
+### Videos PHP
+- [Test Driven Laravel From Scratch](http://adamwathan.me/2016/01/11/test-driven-laravel-from-scratch/) - by Adam Wathan.
+
+
+## Python
+
+### Books Python
+- [TDD with Python](http://www.codekoala.com/posts/test-driven-development-with-python/) - by Josh VanderLinden.
+
+### Guides Python
+- [Beginning Test Driven Development in Python](http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137) - by David Sale.
+- [TDD in 5 minutes](https://dzone.com/articles/tdd-python-5-minutes) by Giorgio Sironi
+.
+- [TDD in python and pycharm](http://tzaffi.github.io/tdd/what_is_tdd/README.html) - by Zeph Grunschlag.
+- [Unit testing and TDD](http://www.cis.upenn.edu/~matuszek/cit591-2012/Pages/unit-testing-in-python.html) - by David Matuszek.
+- [Understanding TDD with Django](http://arunrocks.com/understanding-tdd-with-django/) - by Arun Ravindran.
+
+## React.js
+
+### Guides React
+- [React TDD guide](https://github.com/zpratt/react-tdd-guide) - A series of examples on how to TDD React by Zach Pratt.
+- [A Comprehensive Guide to Test-First Development with Redux, React, and Immutable](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) - by Tero Parviainen.
+
+## Ruby
+
+### Books Ruby
+- [Rails Testing Handbook](https://semaphoreci.com/ebooks/rails-testing-handbook) - by Semaphoreci.
+
+### Guides Ruby
+- [Rails girls - Test Driven Development](http://guides.railsgirls.com/test-driven-development) - by RailGirls.
+- [Coding Conways game of Life in Ruby the TDD way with Rspec](http://www.rubyinside.com/screencast-coding-conways-game-of-life-in-ruby-the-tdd-way-with-rspec-5564.html) - by Peter Cooper.
+- [Test Driven Rails - Part 1](https://karolgalanciak.com/blog/2014/01/04/test-driven-rails-part-1/) - Karol Galanciak.
+- [Test Driven Rails - Part 2](https://karolgalanciak.com/blog/2014/03/03/test-driven-rails-part-2/) - Karol Galanciak.
+- [Introducing TDD with Rails 3](http://www.sitepoint.com/introducing-test-driven-development-with-rails-3/) - by Darcy Laycock.
+- [Let's Build: Instagram TDD with Rails Building an Instagram Clone](https://www.devwalks.com/lets-build-instagram-test-driven-with-ruby-on-rails-part-1/) - by Ben Walker.
+- [Rails Testing for Zombies with TDD](https://www.pluralsight.com/courses/code-school-rails-for-zombies) - by Gregg Pollack.
+- [15 TDD Steps to create a Rails Application](http://andrzejonsoftware.blogspot.com.ng/2007/05/15-tdd-steps-to-create-rails.html) - by Andrzej Krzywda.
+- [Learn TDD with Ror](https://github.com/fsproru/tdd_with_ror) - by Alex Tamoykin.
+
+### Videos Ruby
+- [Introduction to test driven design](http://rubyoffrails.com/videos/18-introduction-to-test-driven-design-tdd) - by RubyOffRails.
+- [Learn TDD with Ruby Koans](http://rubykoans.com/) - by RubyKoans.
+
 
 ## Related Awesome Lists
 
+- [Awesome BDD](https://github.com/omergulen/awesome-bdd) -  A collection of awesome things regarding the behavior-driven development ecosystem.
 - [The Original](https://github.com/sindresorhus/awesome) - The awesome list of awesome lists.
-- [Awesome Cucumber](https://github.com/virajkulkarni14/Awesome-Cucumber) -  A collection of awesome Cucumber and Gherkin-related resources.
 - [Awesome Software Quality](https://github.com/ligurio/awesome-software-quality) - A list of free software testing and verification resources.
-- [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium) - A curated list of delightful Selenium resources.
 - [Awesome Testing](https://github.com/TheJambo/awesome-testing) - A curated list of testing software, extensions and resources.
+- [Awesome TDD](https://github.com/unicodeveloper/awesome-tdd) - 📖 🚛 Curated list of awesome resources: books, videos, articles about using TDD(Test Driven Development).
 
-## Videos
-- [An Introduction to Behavior-Driven Development (BDD) with Cucumber for Java](https://www.youtube.com/watch?v=MCaXumfckmQ) - by  Oracle Developers.
-- [An Introduction to BDD from Konstantin Kudryashov](https://www.youtube.com/watch?v=njcHzGYv7nI) - by Inviqa.
-
-## Tools
-
-### .NET
-- [Bard](https://github.com/sjclark76/Bard) - Bard is a test library written by Developers for Developers. It is as much a development tool as it is a test library. Although Bard is a .NET library it can be used to test any API if you want.
-- [Specflow](https://specflow.org/) - 
-SpecFlow makes test automation easier by turning it into a team effort and allowing every role to better use their skills.
-
-### C-Sharp
-- [Concordion](https://concordion.org/coding/csharp/html/) - Concordion fixtures find commands in the instrumented specification and use them to verify the system under test. Concordion is a test runner that can invoke your application code directly.
-
-### Go
-- [GoConvey](https://github.com/smartystreets/goconvey) - A yummy BDD tool for gophers. Use it in the browser or in the terminal. Either way you choose, the output is a pleasure to read and work with.
-- [testcase](https://github.com/adamluzsi/testcase) - testcase is an opinionated behavior-driven-testing library 
-
-### Java
-- [Cucable Maven Plugin](https://github.com/trivago/cucable-plugin) - Cucable is a Maven plugin for Cucumber scenarios that simplifies fine-grained and efficient parallel test runs.
-- [cucumber](https://github.com/cucumber/cucumber) - Cucumber helps in writing the tests which are easy to understand by anyone
-- [Chorus](https://github.com/Chorus-bdd/Chorus) -  The Chorus BDD interpreter - Executable specifications for distributed systems.
-- [Cluecumber Report Maven Plugin](https://github.com/trivago/cluecumber-report-plugin) - This plugin creates aggregated test reports from Cucumber compatible JSON files that are generated by Cucumber BDD, Karate and other frameworks.
-- [Concordion](https://concordion.org/coding/java/html/) - Concordion fixtures find commands in the instrumented specification and use them to verify the system under test. Concordion is a test runner that can invoke your application code directly.
-- [Easy B](https://easyb.io/v1/index.html) - easyb is a behavior driven development framework for the Java platform.
-- [HTML reports for Cucumber](https://github.com/damianszczepanik/cucumber-reporting) - This is a Java report publisher primarily created to publish cucumber reports on the Jenkins build server. It publishes pretty html reports with charts showing the results of cucumber runs.
-- [JBehave](https://jbehave.org/) - JBehave is a framework for Behaviour-Driven Development (BDD).
-- [JBehave Web](https://jbehave.org/reference/web/stable/) - JBehave Web is an extension of JBehave Core, providing support for web-related access or functionality.
-- [Karate](https://github.com/intuit/karate) - Web services testing framework based on Cucumber-JVM.
-- [SeleniumCucumber](https://github.com/rahulrathore44/SeleniumCucumber) - BDD framework for automation using Selenium Cucumber and TestNg.
-- [Spock](https://github.com/spockframework/spock) -  The Enterprise-ready testing and specification framework.
-
-### JavaScript
-- [apickli](https://github.com/apickli/apickli) - REST API integration testing framework based on cucumber.js.
-- [Courgette](https://github.com/canvaspixels/courgette) - Beautifully simple UI testing for all the team. Test your Web and Native Mobile Apps.
-- [Cucumber.js](https://github.com/cucumber/cucumber-js) - Cucumber.js is the JavaScript implementation of Cucumber and runs on the maintained Node.js versions and modern web browsers.
-- [Cucumber Reports Plugin](https://github.com/jenkinsci/cucumber-reports-plugin) - This is a Java Jenkins plugin which publishes pretty html reports showing the results of cucumber runs.
-- [DaSpec](https://github.com/daspec) - JavaScript framework.
-- [Jasmine](https://github.com/jasmine/jasmine) -  Simple JavaScript testing framework for browsers and node.js.
-- [react-hot-loader](https://github.com/gaearon/react-hot-loader) - Tweak React components in real time.
-- [RestQA](https://github.com/restqa/restqa) - All-in-one API test automation framework with a great developer experience. Based on Cucumber.
-- [Yadda](https://github.com/acuminous/yadda) -  A BDD javascript library.
-
-### Objective-C
-- [Specta](https://github.com/specta/specta) - A light-weight TDD / BDD framework for Objective-C.
-
-### Perl
-- [test-bdd-cucumber-perl](https://github.com/pherkin/test-bdd-cucumber-perl) - Test::BDD::Cucumber - Feature-complete Cucumber-style testing in Perl 
-
-### PHP
-- [Behat](https://github.com/Behat/Behat) - Behat is a BDD framework for PHP to help you test business expectations.
-- [Kahlan](https://github.com/kahlan/kahlan) - PHP Test Framework for Freedom, Truth, and Justice.
-
-### Python
-- [behave](https://github.com/behave/behave) - behave is behavior-driven development, Python style.
-- [lettuce](https://github.com/gabrielfalcao/lettuce) -  Behavior-driven-development tool for python, inspired by Cucumber for Ruby ⛺.
-- [pyspecs](https://github.com/mdwhatcott/pyspecs) - Minimalistic BDD in Python (ah, my first forray into the wonderful world of test runners!).
-
-### Ruby
-- [CukeLinter](https://github.com/enkessler/cuke_linter) - This gem provides linting functionality for Feature files.
-- [ReportBuilder](https://github.com/rajatthareja/ReportBuilder) - Ruby gem to merge Cucumber JSON reports and build mobile-friendly HTML Test Report, JSON report and retry file.
-- [Spinach](https://github.com/codegram/spinach) - BDD framework on top of Gherkin.
 
 ---
 

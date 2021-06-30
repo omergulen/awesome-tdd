@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Awesome BDD`,
-    siteDescription: `Everything about Behavior-driven Development. BDD tools, libraries, tutorials, videos, aritcles and more.`,
-    description: `Everything about Behavior-driven Development. BDD tools, libraries, tutorials, videos, aritcles and more.`,
+    title: `Awesome TDD`,
+    siteDescription: `Everything about Behavior-driven Development. TDD tools, libraries, tutorials, videos, aritcles and more.`,
+    description: `Everything about Behavior-driven Development. TDD tools, libraries, tutorials, videos, aritcles and more.`,
     author: `@omergulen`,
-    siteName: `Awesome BDD`,
-    siteUrl: `https://bdd.tools`,
+    siteName: `Awesome TDD`,
+    siteUrl: `https://tdd.tools`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
