@@ -32,6 +32,7 @@ A curated list of courses, tutorials, libraries, tips and tricks, books, videos 
   - [Guides](#guides-python)
   - [Videos](#videos-python)
 - [React.js](#react-js)
+  - [Books](#books-react-js)
   - [Guides](#guides-react-js)
 - [Ruby](#Ruby)
   - [Books](#books-ruby)
@@ -134,6 +135,9 @@ A curated list of courses, tutorials, libraries, tips and tricks, books, videos 
 - [Understanding TDD with Django](http://arunrocks.com/understanding-tdd-with-django/) - by Arun Ravindran.
 
 ## React.js
+
+### Books React
+- [Outside-In Frontend Development](https://outsidein.dev/) - A free online book walking through applying the outside-in style of TDD to React. By Josh Justice.
 
 ### Guides React
 - [React TDD guide](https://github.com/zpratt/react-tdd-guide) - A series of examples on how to TDD React by Zach Pratt.
