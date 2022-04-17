@@ -144,7 +144,7 @@ A curated list of courses, tutorials, libraries, tips and tricks, books, videos 
 ## React Native
 
 ### Guides React Native
-- [Learn TDD in React Native](https://learntdd.in/react-native/) - A short tutorial applying the outside-in style of TDD to React Native. By Josh Justice.
+- [Learn TDD in React Native](https://learntdd.in/react-native/) - A short tutorial applying the outside-in style of TDD to React Native by Josh Justice.
 
 ## Ruby
 
