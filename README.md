@@ -154,6 +154,7 @@ A curated list of courses, tutorials, libraries, tips and tricks, books, videos 
 
 ### Books Ruby
 - [Rails Testing Handbook](https://semaphoreci.com/ebooks/rails-testing-handbook) - by Semaphoreci.
+- [Effective Testing with RSpec 3](https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/) - written with a TDD focus, including an outside-in TDD tutorial, by the RSpec maintainers.
 
 ### Guides Ruby
 - [Rails girls - Test Driven Development](http://guides.railsgirls.com/test-driven-development) - by RailGirls.
